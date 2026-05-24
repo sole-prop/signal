@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "dashboard",
+      "runtimeExecutable": "powershell.exe",
+      "runtimeArgs": ["-NoProfile", "-Command", "Set-Location 'C:/Users/ASUS/OneDrive/Documents/signal/dashboard'; npm run dev"],
+      "port": 3000,
+      "autoPort": true
+    }
+  ]
+}
